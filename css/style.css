@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header" 
+    "main"
+    "footer";
+    grid-template-rows: 102px 1fr 183px;
+}
+header{
+    grid-area: header;
+    background-color: #FF4655;
+    display: flex;
+    align-items: center;
+    padding-left: 64px;
+    font-family:  'Poppins', sans-serif;
+    font-weight: 700;
+    
+}
+main{
+    grid-area: main;
+    background-color: #0F1923;
+   
+}
+footer{
+    grid-area: footer;
+    background-color: darkgreen;
+}
