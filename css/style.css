@@ -5,7 +5,7 @@ body{
     "header" 
     "main"
     "footer";
-    grid-template-rows: 102px 1fr 183px;
+    grid-template-rows: 10.5vh 1fr 15vh;
 }
 header{
     grid-area: header;
