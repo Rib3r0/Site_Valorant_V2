@@ -1,3 +1,23 @@
 .buttom{
-    width: 800px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.action{
+    width: 200px;
+    height: 60px;
+    background-color: #0000;
+    border-color: #fff;
+    color: #fff;
+    font-family: Zuume , sans-serif;
+    font-size: 36px;
+    z-index: 2;
+    transform: translate(3%, 10%);
+}
+.button__bg{
+    position: absolute;
+    background-color: #FF4655;
+    width: 200px;
+    height: 60px;
 }
