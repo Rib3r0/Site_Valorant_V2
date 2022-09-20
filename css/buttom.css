@@ -1,6 +1,10 @@
 .buttom{
+    grid-area: buttom;
     display: flex;
     align-items: center;
+    justify-content: end;
+    padding-right: 69px;
+    padding-top: 160px;
     
     
 }

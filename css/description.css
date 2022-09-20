@@ -7,12 +7,12 @@
 
 
 .description{
+    grid-area: description;
+    padding-top: 62px;
     display: grid;
-    padding-top: 89px;
-    padding-left: 64px;
-    width: 525px;
+    width: 457px;
     height: 535px;
-    grid-template-rows: 154px 1fr 1fr;
+    grid-template-rows: 154px 45px 400px;
 }
 .titulo{
     display: flex;
@@ -23,18 +23,16 @@
     position: absolute;
     color: #FF4654;
     font-weight: 800;
-    font-size: 220px;
+    font-size: 13.75rem;
     place-self: center;
     font-family: Zuume , sans-serif;
-    
-    
 
 }
 .description__subTitle{
 
     color: #FFFFFF;
     font-family: Zuume , sans-serif;
-    font-size: 48px;
+    font-size: 3rem;
     place-self: end;
     z-index: 1;
     transform: translate(0, 40%);
@@ -44,15 +42,19 @@
 .description__bio{
     color: #FFFFFF;
     font-family: Zuume , sans-serif;
-    font-size: 40px;
-    padding-top: 21px;
+    font-size: 2rem;
+    transform: translate(0, 45%);
+    
 }
 
 .description__text{
     display: flex;
     flex-direction: column;
+    padding-top: 30px;
     gap: 45px;
     color: #FFFFFF;
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
     font-size: 1rem;
+    font-style: none;
 }

@@ -5,7 +5,8 @@ body{
     "header" 
     "main"
     "footer";
-    grid-template-rows: 10.5vh 1fr 15vh;
+    grid-template-rows: 10.5vh 1fr ;
+    background-color: #0F1923;
 }
 header{
     grid-area: header;
@@ -19,13 +20,23 @@ header{
 }
 main{
     grid-area: main;
-    background-color: #0F1923;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    background: no-repeat url(../img/background.png);
+    background-size: 75%;
+    display: grid;
+    grid-template-areas: 
+        "description buttom image"
+        "footer footer  image"
+        ;
+    grid-template-columns:  1fr 1fr 1fr;
+    margin-top: 26px;
+    padding-left: 64px;
+    padding-bottom: 64px ;
+    
+    
    
 }
 footer{
     grid-area: footer;
-    background-color: darkgreen;
+    background-color:blueviolet;
+    
 }
