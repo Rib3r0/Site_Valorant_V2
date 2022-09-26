@@ -2,10 +2,12 @@ body{
     height: 100vh;
     display: grid;
     grid-template-areas:
-    "header" 
-    "main"
-    "footer";
-    grid-template-rows: 10.5vh 1fr ;
+    "header " 
+    "main "
+    "footer"
+    ;
+    
+    grid-template-rows: 10.5vh 1fr 200px ;
     background-color: #0F1923;
 }
 header{
@@ -29,10 +31,7 @@ main{
         ;
     grid-template-columns:  1fr 1fr 1fr;
     margin-top: 26px;
-    padding-left: 64px;
-    padding-bottom: 64px ;
-    
-    
+    padding-left: 64px;   
    
 }
 footer{
