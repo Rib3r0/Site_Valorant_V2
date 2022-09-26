@@ -1,0 +1,16 @@
+.block{
+    background-color: #fff;
+    width: 260px;
+    height: 110px;
+    transform: translate(10%, -10%);
+    border: 1px solid #FF4655;
+
+}
+article{
+    transform: translate(10%, -10%);
+    background-color: #fff;
+    width: 260px;
+    height: 110px;
+    border: 1px solid #FF4655;
+}
+

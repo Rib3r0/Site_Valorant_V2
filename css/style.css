@@ -7,7 +7,7 @@ body{
     "footer"
     ;
     
-    grid-template-rows: 10.5vh 1fr 200px ;
+    grid-template-rows: 10.5vh 1fr ;
     background-color: #0F1923;
 }
 header{
@@ -36,6 +36,7 @@ main{
 }
 footer{
     grid-area: footer;
-    background-color:blueviolet;
+    
+    padding-top: 100px;
     
 }
