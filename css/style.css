@@ -36,7 +36,8 @@ main{
 }
 footer{
     grid-area: footer;
-    
+    gap: 37px;
+    display: flex;
     padding-top: 100px;
     
 }
